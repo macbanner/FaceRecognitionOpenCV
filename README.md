@@ -19,16 +19,17 @@ This project demonstrates the use of OpenCV for face detection and recognition u
 
 ```bash
 git clone https://github.com/macbanner/FaceRecognitionOpenCV.git
-cd FaceRecognitionOpenCV 
+cd FaceRecognitionOpenCV
+```
 
 Important Notice
-OpenCV has removed the cv2.face module from version 4.4.0 onwards. This module was used for face recognition and included algorithms such as Eigenfaces, Fisherfaces, and LBPH (Local Binary Patterns Histograms).
+OpenCV has removed the cv2.face module from version 4.4.0 onwards. (maybe i'll fix it if i feel like it lol) 
 
 Instead of using the cv2.face module, OpenCV now recommends using the face_recognition library, which is a third-party library that provides a simple interface for face recognition tasks. This library uses dlib's implementation of face recognition algorithms, which is more accurate and faster than the algorithms included in the cv2.face module.
 
 You can install the face_recognition library using pip:
 
-
+```bash
 pip install face_recognition
-⚠️ If you are facing issues due to OpenCV version mismatch, consider downgrading OpenCV or refactoring the project using face_recognition.
+```
 

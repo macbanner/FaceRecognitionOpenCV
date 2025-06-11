@@ -23,7 +23,7 @@ cd FaceRecognitionOpenCV
 ```
 
 Important Notice
-OpenCV has removed the cv2.face module from version 4.4.0 onwards. (maybe i'll fix it if i feel like it lol) 
+OpenCV has removed the cv2.face module from version 4.4.0 onwards. 
 
 Instead of using the cv2.face module, OpenCV now recommends using the face_recognition library, which is a third-party library that provides a simple interface for face recognition tasks. This library uses dlib's implementation of face recognition algorithms, which is more accurate and faster than the algorithms included in the cv2.face module.
 
